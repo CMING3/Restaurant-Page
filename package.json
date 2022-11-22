@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/CMING3/Restaurant-Page.git"
   },
-  "author": "",
+  "author": "cming",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/CMING3/Restaurant-Page/issues"
