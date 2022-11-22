@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 20vh;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(210, 0, 0);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 15vh;
+}
+.logo>h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+.logo>p{
+    font-family:monospace;
+    font-size: 16px;
+}
+.navbar{
+    display: flex;
+    color: rgb(210, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    height:5vh;
+}
+.navbar>*{
+    flex:1;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+article{
+    height:70vh;
+    text-align: center;
+    background: url();
+    background-color: rgb(210, 0, 0);
+    color: white;
+    padding: 40px 0px;
+    line-height: 1.5;
+}
+
+article>p{
+    font-size: 16px;
+}
